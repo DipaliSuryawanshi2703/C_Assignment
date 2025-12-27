@@ -3,31 +3,27 @@
 
 int main()
 {
-     int yr=0;
+  int yr=0;
+  printf("\n Enter The Year =  ");
+  scanf("%d", &yr);
 
-     printf("\n Enter The Year =  ");
-     scanf("%d", &yr);
+  if (yr < 1000 || yr > 9999)
+      printf("\n ....Please Enter The Valid Year...." );
 
-     if (yr%4==0 && yr%100==0)
+  else if (yr % 4 ==0 )
+      printf("\n The Year %d Is A Leap Year", yr);
 
-        printf("\n The Year %d Is A Not Leap Year", yr);
-
-
-    else if(yr%4 ==0 )
-
-        printf("\n The Year %d Is A Leap Year", yr);
-
-    else if(yr%400==0)
-        printf("\n The Year %d Is A Leap Year", yr);
-
-    else
-        printf("\n  The Year %d Is A Not Leap Year", yr);
+  else
+      printf("\n The Year %d Is A Not Leap Year", yr);
 
      getch();
      return 0 ;
-
-
 }
+
+
+
+
+    
 
 
 
