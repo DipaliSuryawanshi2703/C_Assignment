@@ -3,45 +3,45 @@
 
 int main()
 {
-    int No = 1-12;
+    int Month = 1-12;
 
     printf( "\n\a\a\t Enter The Number  =   ");
-    scanf("%d" , &No);
+    scanf("%d" , & Month);
 
-    if (No=1)
+    if ( Month = 1)
         printf("\n The Month Is : January");
 
-    else if(No=2)
+    else if( Month = 2)
          printf("\n The Month Is : February");
 
-    else if(No=3)
+    else if( Month = 3)
          printf("\n The Month Is : March");
 
-    else if (No=4)
+    else if ( Month = 4)
          printf("\n The Month Is : April");
 
-    else if(No=5)
+    else if( Month = 5)
          printf("\n The Month Is : May");
 
-    else if(No=3)
+    else if( Month =6)
          printf("\n The Month Is : June");
 
-    else if(No=3)
+    else if( Month =7)
          printf("\n The Month Is : July");
 
-    else if(No=3)
+    else if( Month = 8)
          printf("\n The Month Is : August");
 
-    else if(No=3)
+    else if( Month = 9)
          printf("\n The Month Is : September");
 
-    else if(No=3)
+    else if( Month = 10)
          printf("\n The Month Is : Octomber");
 
-    else if(No=3)
+    else if( Month = 11)
          printf("\n The Month Is : November");
 
-    else if(No=3)
+    else if( Month = 12)
          printf("\n The Month Is : December");
 
      else
@@ -56,3 +56,4 @@ int main()
 
 
 }
+
