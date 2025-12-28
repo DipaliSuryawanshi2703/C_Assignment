@@ -3,8 +3,6 @@
 
 int main()
 {
-
-
  int Radius = 0;
  float Area = 0;
  float PI = 3.14;
@@ -20,3 +18,4 @@ int main()
  getch();
  return 0;
 }
+
