@@ -5,7 +5,7 @@ int main()
 {
     printf("\n\a Welcome To C Programming");
 
-    printf("\n\n It Was MY First Code");
+    printf("\n\n It Is MY First Code");
 
     printf("\n\n Name\t Age\t Gender");
 /*\a used for bip sound*/
@@ -15,3 +15,4 @@ int main()
     getch();
     return  0;
 }
+
