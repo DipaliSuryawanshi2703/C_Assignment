@@ -3,9 +3,6 @@
 
 int main()
 {
-
-
-
     int Physics = 0 ,Maths = 0   ,English = 0 ,sum = 0;
     float per=0;
 
@@ -32,5 +29,6 @@ int main()
     getch();
     return 0;
 }
+
 
 
